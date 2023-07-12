@@ -74,10 +74,12 @@ h1 {
     color: #d7ccbc;
     flex-basis: 0;
     flex-grow: 1;
+    position: relative;
+    /* max-height: 300px; */
 }
 
 .project img {
-    max-height: 50%;
+    max-height: 250px;
     object-fit: cover;
 }
 
@@ -138,9 +140,9 @@ h1 {
     border-left: #1b130e solid 1px;
 } */
 
-.sec4 {
+/* .sec4 {
     background-color: #e8e8e8;
-}
+} */
 
 .sec4 h2 {
     font-family: aloe;
@@ -238,6 +240,12 @@ h1 {
     font-family: Robo;
 }
 
+.about-page h2 {
+    font-family: aloe;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
 .project-page {
     color: #36445b;
     font-family: Robo;
@@ -273,4 +281,33 @@ h1 {
     color: #282119;
     font-weight: 600;
     letter-spacing: .2rem;
+}
+
+.more-info {
+    margin-top: 20px;
+    text-align: right;
+    position: relative;
+    bottom: 0;
+}
+
+/* .about-text {
+    position: relative;
+} */
+
+.read-more {
+    color: #d7ccbc;
+    font-family: Robo;
+    background-color: #3d3731;
+    border: #d7ccbc solid 1px;
+    padding: 8px;
+    transition: all 0.2s ease-in-out;
+    text-align: right;
+}
+
+.read-more:hover {
+    background-color: #525665;
+}
+
+.pro-page a {
+    font-family: Robo;
 }

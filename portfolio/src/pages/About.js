@@ -13,7 +13,7 @@ function About() {
         I'm Taylor. I'm a software engineer, creative thinker, and a problem solver.
         </h2>
 
-        <p className="hidden md:mt-4 md:block">
+        <p className=" md:mt-4 md:block">
         I'm Taylor, a passionate software engineer with a love for crafting captivating web experiences. From my early days exploring Geocities, I was hooked on the art of creating online. Technology and programming have fascinated me since childhood, and I spent hours building layouts and fun websites for sheer enjoyment. <br /><br />
 
         During a transformative journey of self-improvement in 2021, my passion for programming and web development reignited. I realized that this field offered an excitement and fulfillment that my previous career path lacked. In 2022, I made the bold decision to fully immerse myself in this new path.<br /><br />

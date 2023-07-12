@@ -28,7 +28,7 @@ function Sec3() {
         <p className="mt-1 text-sm">
         An innovative application that connects users based on their shared interests and hobbies.
         </p>
-        <a href='/projects/friendforge'>More Info</a>
+        <div className='more-info'><a href='/projects/friendforge'>More Info</a></div>
       </div>
 
       <div className="project">
@@ -39,11 +39,12 @@ function Sec3() {
         <p className="mt-1 text-sm">
           Fully custom built portfolio website, designed to showcase my skills and experience.
         </p>
-        <a href='/projects/friendforge'>More Info</a>
+        <div className='more-info'><a href='/projects/friendforge'>More Info</a></div>
+
 
       </div>
 
-      <div
+      {/* <div
         className="project"
       >
         img
@@ -55,7 +56,7 @@ function Sec3() {
           possimus adipisci distinctio alias voluptatum blanditiis laudantium.
         </p>
         <a href='/projects/friendforge'>More Info</a>
-      </div>
+      </div> */}
     </div>
 
     <div className="mt-12 text-center">

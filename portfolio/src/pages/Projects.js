@@ -33,14 +33,14 @@ function Projects() {
                     <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">React App</h3>
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Portfolio</h2>
                     <p className="leading-relaxed text-base">Fully custom built portfolio website, designed to showcase my skills and experience.</p>
-                    <a className="inline-flex items-center mt-4" href='/projects'>Learn More
+                    <a className="inline-flex items-center mt-4" href='/projects/portfolio'>Learn More
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </a>
                     </div>
                 </div>
-                <div className="xl:w-1/4 md:w-1/2 p-4">
+                {/* <div className="xl:w-1/4 md:w-1/2 p-4">
                     <div className="bg-gray-100 p-6 pro-card">
                     <img className="h-40 w-full object-cover object-center mb-6 project-img" src="https://dummyimage.com/722x402" alt="content goes here"/>
                     <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
@@ -52,8 +52,8 @@ function Projects() {
                         </svg>
                     </a>
                     </div>
-                </div>
-                <div className="xl:w-1/4 md:w-1/2 p-4">
+                </div> */}
+                {/* <div className="xl:w-1/4 md:w-1/2 p-4">
                     <div className="bg-gray-100 p-6 pro-card">
                     <img className="h-40 w-full object-cover object-center mb-6 project-img" src="https://dummyimage.com/723x403" alt="content goes here"/>
                     <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
@@ -65,7 +65,7 @@ function Projects() {
                         </svg>
                     </a>
                     </div>
-                </div>
+                </div> */}
                 </div>
             </div>
             </section>

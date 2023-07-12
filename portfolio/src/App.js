@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import FriendForge from './projects/FriendForge';
+import Portfolio from './projects/Portfolio';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects/friendforge" element={<FriendForge />} />
+        <Route path="/projects/portfolio" element={<Portfolio />} />
       </Routes>
       <Footer />
     </BrowserRouter>

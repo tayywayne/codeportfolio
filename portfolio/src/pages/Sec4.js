@@ -17,7 +17,7 @@ function Sec4() {
                 className="hidden box2 lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-stone-700"
                 ></span>
 
-                <div className="p-8 sm:p-16 lg:p-24">
+                <div className="p-8 sm:p-16 lg:p-24 about-text">
                 <h2 className="text-3xl font-bold sm:text-6xl">
                     About Me
                 </h2>
@@ -26,7 +26,7 @@ function Sec4() {
 
                     I'm Taylor, a passionate software engineer known for my creative thinking and exceptional problem-solving skills. Ever since my early exploration of Geocities, I've been captivated by the art of crafting immersive web experiences. Programming ignites a profound sense of pride and fulfillment within me, as I unleash my creativity, tackle intricate challenges, and relentlessly expand my knowledge in pursuit of excellence.
                 </p>
-                <div className="fancy-link"><a href="/about">Read More</a></div>
+                <div className='more-info'><a href='/about' className='read-more'>Read More</a></div>
 
                 </div>
             </div>
