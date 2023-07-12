@@ -1,0 +1,276 @@
+@font-face {
+    font-family: aloe;
+    src: url(../TheNightWatch.ttf);
+}
+
+@font-face {
+    font-family: Robo;
+    src: url(../Roboto.ttf);
+}
+
+h1 {
+    font-family: aloe;
+    color: #e8e8e8;
+    letter-spacing: .5rem;
+}
+
+.herotext {
+    font-family: Robo;
+    color: #e8e8e8;
+    letter-spacing: .2rem;
+}
+
+.sec2 {
+    background-color: #e8e8e8;
+    font-family: Robo;
+    border-top: #1b130e solid 1px;
+    border-bottom: #1b130e solid 1px;
+}
+
+.sec2 p {
+    color: #2b251e;
+}
+
+.sec2 h2 {
+    color: #2b251e;
+    font-family: aloe;
+    letter-spacing: .2rem;
+}
+
+.sec2 span {
+    background-color: #707d97;
+    border: #525665 solid 1px;
+}
+
+.sec2 img {
+    max-width: 40px;
+}
+
+.sec3 {
+    color: #d7ccbc;
+    background-color: #525665;
+    border-bottom: #1b130e solid 1px;
+    font-family: Robo;
+}
+
+.sec3 h2 {
+    font-family: aloe;
+    color: #d7ccbc;
+    letter-spacing: .2rem;
+}
+
+.projects {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex: auto;
+    padding: 25px;
+}
+
+.project {
+    border: #d7ccbc solid 1px;
+    padding: 10px;
+    background-color: #606472;
+    color: #d7ccbc;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.project img {
+    max-height: 50%;
+    object-fit: cover;
+}
+
+.seemore {
+    color: #d7ccbc;
+    font-family: Robo;
+    background-color: #606472;
+    border: #d7ccbc solid 1px;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.seemore:hover {
+    background-color: #525665;
+}
+
+.project-img {
+    width: 100%;
+    filter: grayscale(1) sepia(0.5);
+    transition: all 0.2s ease-in-out;
+}
+
+.project-img:hover {
+    filter: grayscale(0) sepia(0.5);
+}
+
+.project a {
+    color: #d7ccbc;
+    font-family: Robo;
+    background-color: #606472;
+    border: #d7ccbc solid 1px;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+    text-align: right;
+}
+
+.project a:hover {
+    background-color: #525665;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.sec3-box {
+    color: #b1b9c1;
+}
+/*
+.box1 {
+    border-bottom: #1b130e solid 1px;
+    border-top: #1b130e solid 1px;
+    border-right: #1b130e solid 1px;
+}
+
+.box2 {
+    border-bottom: #1b130e solid 1px;
+    border-top: #1b130e solid 1px;
+    border-left: #1b130e solid 1px;
+} */
+
+.sec4 {
+    background-color: #e8e8e8;
+}
+
+.sec4 h2 {
+    font-family: aloe;
+    letter-spacing: .2rem;
+}
+
+.sec4 p {
+    font-family: Robo;
+}
+
+
+
+.fancy-link {
+    background-color: #b1b9c1;
+    color: #525665;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: aloe;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #525665;
+    box-shadow: 0 0 0 0 #525665;
+    width: 50%;
+    border-radius: 10em;
+    }
+
+.fancy-link:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 #525665;
+};
+
+.fancy-link:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 #525665;
+};
+
+.pro-page {
+    color: #1b130e;
+}
+
+.pro-page p {
+    font-family: Robo;
+    color: #1b130e;
+}
+
+.pro-page h2 {
+    font-family: aloe;
+    color: #1b130e;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.pro-page h3 {
+    font-family: Robo;
+    color: #586275;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.pro-page h1 {
+    color: #586275;
+    font-weight: 600;
+}
+
+.pro-card {
+    border: #36445b solid 1px;
+    background-color: #bcc2cf;
+}
+
+.about {
+    color: #36445b;
+}
+
+.about2 {
+    background-color: #36445b;
+    color: #e0e2e7;
+    border-bottom: #1b130e solid 1px;
+    border-top: #1b130e solid 1px;
+}
+
+.about2 h2 {
+    font-family: aloe;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.blue-div {
+    background-color: #36445b;
+}
+
+.about-page {
+    font-family: Robo;
+}
+
+.project-page {
+    color: #36445b;
+    font-family: Robo;
+}
+
+.project-page h2 {
+    font-family: aloe;
+    letter-spacing: .2rem;
+    font-weight: 600;
+    color: #36445b;
+}
+
+.tech-stack {
+    background-color: #36445b;
+    color: #e0e2e7;
+    border-top: #1b130e solid 1px;
+}
+
+.project-page a {
+    font-family: aloe;
+    color: #282119;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: .2rem;
+}
+
+.project-page a:hover {
+    color: #586275;
+}
+
+.project-page h3 {
+    font-family: aloe;
+    color: #282119;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}

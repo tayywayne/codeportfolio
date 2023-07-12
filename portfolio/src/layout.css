@@ -1,0 +1,35 @@
+@font-face {
+    font-family: aloe;
+    src: url(aloe.ttf);
+}
+
+header a {
+    font-family: aloe;
+    color: #282119;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: .2rem;
+}
+
+header a:hover {
+    color: #586275;
+}
+
+header {
+    background-color: #8c9cb0;
+    border-bottom: 1px solid #282119;
+}
+
+footer {
+    font-family: aloe;
+    letter-spacing: .2rem;
+    background-color: #b1b9c1;
+    border-top: 1px solid #282119;
+}
+
+footer a {
+    max-width: 25px;
+    transition: all 0.2s ease-in-out;
+}
+footer a:hover {
+    opacity: 0.7;
+}
