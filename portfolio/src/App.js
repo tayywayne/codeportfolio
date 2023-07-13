@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
+import Contact from './pages/Contact';
 import FriendForge from './projects/FriendForge';
 import Portfolio from './projects/Portfolio';
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects/friendforge" element={<FriendForge />} />
         <Route path="/projects/portfolio" element={<Portfolio />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>

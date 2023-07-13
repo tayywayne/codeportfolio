@@ -13,7 +13,7 @@ function Sec1() {
   >
     <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
       <h1 className="text-6xl font-extrabold sm:text-9xl">
-        Taylor Wayne
+        TAYLOR WAYNE
       </h1>
 
       <p className=" max-w-lg sm:text-xl/relaxed herotext">

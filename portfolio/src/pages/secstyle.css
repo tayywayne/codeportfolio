@@ -1,6 +1,6 @@
 @font-face {
     font-family: aloe;
-    src: url(../TheNightWatch.ttf);
+    src: url(../night.ttf);
 }
 
 @font-face {
@@ -61,7 +61,9 @@ h1 {
 
 .projects {
     display: flex;
-    gap: 10px;
+    flex: auto;
+    flex-wrap: wrap;
+    gap: 100px;
     justify-content: center;
     flex: auto;
     padding: 25px;
@@ -310,4 +312,108 @@ h1 {
 
 .pro-page a {
     font-family: Robo;
+}
+
+.input {
+    border: 1px solid #525665;
+    padding: 15px;
+    background-color: #b1b9c1;
+    font-size: small;
+    font-weight: bold;
+    font-family: Robo;
+    }
+
+.input:focus {
+    outline-color: #525665;
+    background-color: #9da5ad;
+    color: #1c2027;
+    box-shadow: 5px 5px #858d96;
+    }
+
+.input-label {
+    color: #3f4858;
+    font-family: Robo;
+    font-weight: bold;
+}
+
+.comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: Robo;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #b1b9c1;
+    border: 1px solid #1c2027;
+    /* box-shadow: 5px 5px 0px #858d96; */
+    transition: all 0.3s ease;
+}
+
+.comic-button:hover {
+    background-color: #fff;
+    color: #858d96;
+    border: 1px solid #1c2027;
+    box-shadow: 5px 5px 0px #858d96;
+}
+
+.comic-button:active {
+    background-color: #3f4858;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.contact {
+    font-family: Robo;
+}
+
+.card {
+    --font-color: #d7ccbc;
+    --font-color-sub: #d7ccbc;
+    --bg-color: #767b8b;
+    --main-color: #3f4858;
+    --main-focus: #1d2129;
+    width: 300px;
+    height: 110%px;
+    background: var(--bg-color);
+    border: 1px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    padding: 20px;
+    gap: 10px;
+    font-family: Robo;
+}
+
+.card img {
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--font-color);
+    font-family: aloe;
+    padding-top: 10px;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--font-color-sub);
+    padding-top: 10px;
+}
+
+.card-footer {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.card-footer a {
+    transition: all ease-in-out 0.3s;
+}
+
+.card-footer a:hover {
+    color: #e0e2e7;
 }

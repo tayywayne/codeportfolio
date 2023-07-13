@@ -1,4 +1,6 @@
 import React from 'react'
+import port1 from './port1.gif'
+import port2 from './port2.gif'
 
 function Portfolio() {
     return (
@@ -84,14 +86,14 @@ function Portfolio() {
                     <div className="flex flex-wrap -mx-4 -mb-10 text-center">
                     <div className="sm:w-1/2 mb-10 px-4">
                         <div className="h-64 overflow-hidden">
-                        <img alt="content goes here" className="object-cover object-center h-full w-full" src="https://i.imgur.com/yAqtuaj.gif"/>
+                        <img alt="content goes here" className="object-cover object-center h-full w-full" src={port1}/>
                         </div>
                         <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Join Other Users in Groups</h2>
                         <p className="leading-relaxed text-base">Once a user signs up and fill out their profile, they can join a group that has an open spot with other like minded people!</p>
                     </div>
                     <div className="sm:w-1/2 mb-10 px-4">
                         <div className="h-64 overflow-hidden">
-                        <img alt="content goes here" className="object-cover object-center h-full w-full" src="https://i.imgur.com/dD3lStM.gif"/>
+                        <img alt="content goes here" className="object-cover object-center h-full w-full" src={port2}/>
                         </div>
                         <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Chat with your new friends</h2>
                         <p className="leading-relaxed text-base">Users can chat with their new friends in realtime chat, add them as a friend and see their profile!</p>

@@ -20,7 +20,7 @@ function Sec3() {
 
     <div className="projects">
 
-      <div className="project" >
+      {/* <div className="project" >
         <img src='https://i.imgur.com/JQHS4TQ.png' className='project-img' alt="content goes here"/>
 
         <h2 className="mt-4 text-xl font-bold">Friend Forge</h2>
@@ -39,24 +39,38 @@ function Sec3() {
         <p className="mt-1 text-sm">
           Fully custom built portfolio website, designed to showcase my skills and experience.
         </p>
-        <div className='more-info'><a href='/projects/friendforge'>More Info</a></div>
+        <div className='more-info'><a href='/projects/portfolio'>More Info</a></div>
 
 
+      </div> */}
+      <div class="card">
+      <img src='https://i.imgur.com/JQHS4TQ.png' className='project-img' alt="content goes here"/>
+        <div class="card-title">Friend Forge</div>
+        <div class="card-subtitle">An innovative application that connects users based on their shared interests and hobbies.</div>
+
+        <div class="card-footer">
+        <a className="inline-flex items-center mt-4" href='/projects/friendforge'>Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+        </div>
       </div>
 
-      {/* <div
-        className="project"
-      >
-        img
+      <div class="card">
+      <img src='https://i.imgur.com/hkDbb3q.png' className='project-img' alt="content goes here"/>
+        <div class="card-title">Portfolio</div>
+        <div class="card-subtitle">Fully custom built portfolio website, designed to showcase my skills and experience.</div>
 
-        <h2 className="mt-4 text-xl font-bold">Digital campaigns</h2>
+        <div class="card-footer">
+        <a className="inline-flex items-center mt-4" href='/projects/portfolio'>Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+        </div>
+      </div>
 
-        <p className="mt-1 text-sm">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
-        </p>
-        <a href='/projects/friendforge'>More Info</a>
-      </div> */}
     </div>
 
     <div className="mt-12 text-center">
