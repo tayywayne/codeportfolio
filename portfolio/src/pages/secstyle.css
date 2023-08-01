@@ -88,7 +88,7 @@ h1 {
 }
 
 .aa-para {
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     text-align: center;
     display: flex;
@@ -129,20 +129,23 @@ h1 {
     font-family: kei;
 }
 
-#para1 {
-    background-image: url(./home6.jpg);
-}
 
 .bb-para {
     height: 60vh;
     width: 100%;
     color: white;
-    background-size: cover;
+    background-size: 100vh;
     background-attachment: fixed;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url(./home6.jpg);
+}
+@media (max-width: 768px) {
+    .bb-para {
+        height: 40vh;
+    }
 }
 
 
@@ -227,22 +230,21 @@ h1 {
     color: #b1b9c1;
 }
 
-#para2 {
-    background-image: url(./home7.jpg);
-}
-
-#para4 {
-    background-image: url(./home5.jpg);
-}
-
 .cc-para {
-    background-size: cover;
+    background-size: 100vh;
     background-attachment: fixed;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 60vh;
+    background-image: url(./home7.jpg);
+}
+
+@media (max-width: 768px) {
+    .cc-para {
+        height: 40vh;
+    }
 }
 
 .sec4 h2 {

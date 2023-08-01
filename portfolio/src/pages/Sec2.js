@@ -51,7 +51,7 @@ function Sec2() {
 
             </div>
 
-            <div class="bb-para" id="para1">
+            <div class="bb-para relative bg-cover bg-center bg-no-repeat">
             </div>
         </>
     )

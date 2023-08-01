@@ -33,7 +33,7 @@ function Sec4() {
             </div>
         </div>
 
-        <div class="cc-para" id="para2"></div>
+        <div class="cc-para relative bg-cover bg-center bg-no-repeat"></div>
 
 
         <div className='py-8 px-3 sec4'>
