@@ -1,15 +1,15 @@
 @font-face {
-    font-family: aloe;
-    src: url(../night.ttf);
+    font-family: kei;
+    src: url(../kei.ttf);
 }
 
 @font-face {
     font-family: Robo;
-    src: url(../Roboto.ttf);
+    src: url(../robo2.ttf);
 }
 
 h1 {
-    font-family: aloe;
+    font-family: kei;
     color: #e8e8e8;
     letter-spacing: .5rem;
 }
@@ -20,20 +20,95 @@ h1 {
     letter-spacing: .2rem;
 }
 
+.sec1 {
+    background-image: url(./home4.jpg);
+}
+
+.sec1 h1 {
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+    .sec1 h1 {
+        font-size: 60px;
+    }
+}
+
+.title {
+    text-align: center;
+}
+
+.marquee-container {
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.marquee-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 300s linear infinite;
+    font-size: 30px;
+    font-family: kei;
+}
+
+.marquee-container2 {
+    overflow: hidden;
+    background-color: #000;
+}
+.marquee-text2 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 300s linear infinite;
+    font-size: 30px;
+    font-family: kei;
+    color: #fff;
+}
+
+.marquee-container3 {
+    overflow: hidden;
+    background-color: #fff;
+}
+.marquee-text3 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 300s linear infinite;
+    font-size: 30px;
+    font-family: kei;
+    color: #000;
+}
+
+@keyframes marquee {
+    0% {
+    transform: translateX(0);
+    }
+    100% {
+    transform: translateX(-100%);
+    }
+}
+
+.aa-para {
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .sec2 {
-    background-color: #e8e8e8;
+    background-color: #fff;
     font-family: Robo;
-    border-top: #1b130e solid 1px;
-    border-bottom: #1b130e solid 1px;
+
 }
 
 .sec2 p {
-    color: #2b251e;
+    color: #000;
 }
 
 .sec2 h2 {
-    color: #2b251e;
-    font-family: aloe;
+    color: #000;
+    font-family: kei;
     letter-spacing: .2rem;
 }
 
@@ -42,20 +117,44 @@ h1 {
     border: #525665 solid 1px;
 }
 
-.sec2 img {
-    max-width: 40px;
+.sec-2-skills {
+    background-color: #000;
+    padding: 20px;
+    font-family: robo;
+    color: #fff;
 }
 
+.sec-2-skills h2 {
+    color: #fff;
+    font-family: kei;
+}
+
+#para1 {
+    background-image: url(./home6.jpg);
+}
+
+.bb-para {
+    height: 60vh;
+    width: 100%;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 .sec3 {
-    color: #d7ccbc;
-    background-color: #525665;
-    border-bottom: #1b130e solid 1px;
+    color: #000;
+    background-color: #fff;
     font-family: Robo;
 }
 
 .sec3 h2 {
-    font-family: aloe;
-    color: #d7ccbc;
+    font-family: kei;
+    color: #000;
     letter-spacing: .2rem;
 }
 
@@ -70,10 +169,9 @@ h1 {
 }
 
 .project {
-    border: #d7ccbc solid 1px;
     padding: 10px;
-    background-color: #606472;
-    color: #d7ccbc;
+    background-color: #000;
+    color: #fff;
     flex-basis: 0;
     flex-grow: 1;
     position: relative;
@@ -86,33 +184,32 @@ h1 {
 }
 
 .seemore {
-    color: #d7ccbc;
+    color: #fff;
     font-family: Robo;
-    background-color: #606472;
-    border: #d7ccbc solid 1px;
+    background-color: #000;
     padding: 10px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .seemore:hover {
-    background-color: #525665;
+    background-color: #fff;
+    color: #000;
 }
 
 .project-img {
     width: 100%;
-    filter: grayscale(1) sepia(0.5);
+    filter: grayscale(1);
     transition: all 0.2s ease-in-out;
 }
 
 .project-img:hover {
-    filter: grayscale(0) sepia(0.5);
+    filter: grayscale(0);
 }
 
 .project a {
-    color: #d7ccbc;
+    color: #fff;
     font-family: Robo;
-    background-color: #606472;
-    border: #d7ccbc solid 1px;
+    background-color: #000;
     padding: 5px;
     transition: all 0.2s ease-in-out;
     text-align: right;
@@ -129,40 +226,55 @@ h1 {
 .sec3-box {
     color: #b1b9c1;
 }
-/*
-.box1 {
-    border-bottom: #1b130e solid 1px;
-    border-top: #1b130e solid 1px;
-    border-right: #1b130e solid 1px;
+
+#para2 {
+    background-image: url(./home7.jpg);
 }
 
-.box2 {
-    border-bottom: #1b130e solid 1px;
-    border-top: #1b130e solid 1px;
-    border-left: #1b130e solid 1px;
-} */
+#para4 {
+    background-image: url(./home5.jpg);
+}
 
-/* .sec4 {
-    background-color: #e8e8e8;
-} */
+.cc-para {
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+}
 
 .sec4 h2 {
-    font-family: aloe;
+    font-family: kei;
     letter-spacing: .2rem;
+    color: #fff;
 }
 
 .sec4 p {
     font-family: Robo;
+    color: #fff;
 }
 
+.seemore2 {
+    color: #000;
+    font-family: Robo;
+    background-color: #fff;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
 
+.seemore2:hover {
+    background-color: #000;
+    color: #fff;
+}
 
 .fancy-link {
     background-color: #b1b9c1;
     color: #525665;
     font-size: 20px;
     font-weight: 600;
-    font-family: aloe;
+    font-family: kei;
     text-align: center;
     padding: 10px;
     margin-top: 15px;
@@ -184,58 +296,82 @@ h1 {
     box-shadow: 0 0 0 0 #525665;
 };
 
+.dd-para {
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .pro-page {
-    color: #1b130e;
+    color: #fff;
 }
 
 .pro-page p {
     font-family: Robo;
-    color: #1b130e;
+    color: #fff;
 }
 
 .pro-page h2 {
-    font-family: aloe;
-    color: #1b130e;
+    font-family: kei;
+    color: #000;
     letter-spacing: .2rem;
     font-weight: 600;
 }
 
 .pro-page h3 {
     font-family: Robo;
-    color: #586275;
+    color: #000;
     letter-spacing: .2rem;
     font-weight: 600;
 }
 
 .pro-page h1 {
-    color: #586275;
+    color: #fff;
     font-weight: 600;
 }
 
 .pro-card {
-    border: #36445b solid 1px;
-    background-color: #bcc2cf;
+    background-color: #fff;
+}
+
+.pro-card a {
+    color : #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.pro-card a:hover {
+    color: #494949;
+}
+
+.pro-card p {
+    color: #000;
 }
 
 .about {
-    color: #36445b;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .about2 {
-    background-color: #36445b;
-    color: #e0e2e7;
-    border-bottom: #1b130e solid 1px;
-    border-top: #1b130e solid 1px;
+    background-color: #fff;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .about2 h2 {
-    font-family: aloe;
+    font-family: kei;
     letter-spacing: .2rem;
     font-weight: 600;
 }
 
 .blue-div {
-    background-color: #36445b;
+    background-color: #000;
 }
 
 .about-page {
@@ -243,44 +379,65 @@ h1 {
 }
 
 .about-page h2 {
-    font-family: aloe;
+    font-family: kei;
     letter-spacing: .2rem;
     font-weight: 600;
 }
 
 .project-page {
-    color: #36445b;
+    color: #fff;
     font-family: Robo;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .project-page h2 {
-    font-family: aloe;
+    font-family: kei;
     letter-spacing: .2rem;
     font-weight: 600;
-    color: #36445b;
+    color: #fff;
 }
 
 .tech-stack {
-    background-color: #36445b;
-    color: #e0e2e7;
-    border-top: #1b130e solid 1px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tech-stack h2 {
+    font-family: kei;
+    letter-spacing: .2rem;
+    font-weight: 600;
+    color: #000;
+    font-size: 35px;
+}
+
+.tech-entry {
+    text-align: left;
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
 }
 
 .project-page a {
-    font-family: aloe;
-    color: #282119;
+    font-family: kei;
+    color: #fff;
     font-weight: 600;
     transition: all 0.2s ease-in-out;
     letter-spacing: .2rem;
 }
 
 .project-page a:hover {
-    color: #586275;
+    color: #494949;
 }
 
 .project-page h3 {
-    font-family: aloe;
-    color: #282119;
+    font-family: kei;
+    color: #fff;
     font-weight: 600;
     letter-spacing: .2rem;
 }
@@ -369,11 +526,10 @@ h1 {
 }
 
 .card {
-    --font-color: #d7ccbc;
-    --font-color-sub: #d7ccbc;
-    --bg-color: #767b8b;
-    --main-color: #3f4858;
-    --main-focus: #1d2129;
+    --font-color: #fff;
+    --font-color-sub: #fff;
+    --bg-color: #000;
+    --main-color: #494949;
     width: 300px;
     height: 110%px;
     background: var(--bg-color);
@@ -394,20 +550,21 @@ h1 {
     font-weight: 700;
     text-align: center;
     color: var(--font-color);
-    font-family: aloe;
+    font-family: kei;
     padding-top: 10px;
 }
 
 .card-subtitle {
     font-size: 14px;
     font-weight: 400;
-    color: var(--font-color-sub);
+    color: var(--font-color);
     padding-top: 10px;
 }
 
 .card-footer {
     text-align: right;
     padding-top: 10px;
+    color: #fff;
 }
 
 .card-footer a {
@@ -415,5 +572,5 @@ h1 {
 }
 
 .card-footer a:hover {
-    color: #e0e2e7;
+    color: var(--main-color);
 }
