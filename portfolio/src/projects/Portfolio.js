@@ -1,6 +1,4 @@
 import React from 'react'
-import port1 from './port1.gif'
-import port2 from './port2.gif'
 
 function Portfolio() {
     return (
