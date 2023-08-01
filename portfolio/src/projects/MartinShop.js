@@ -1,7 +1,7 @@
 import React from 'react'
 import martin1 from './images/martin1.png'
-import martin2 from './images/martin2.png'
-import martin3 from './images/martin3.png'
+// import martin2 from './images/martin2.png'
+// import martin3 from './images/martin3.png'
 
 function Martin() {
     return (
