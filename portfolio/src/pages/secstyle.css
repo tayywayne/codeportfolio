@@ -477,6 +477,7 @@ h1 {
 .input {
     border: 1px solid #000;
     padding: 15px;
+    color: #fff;
     background-color: #000;
     font-size: small;
     font-weight: bold;
