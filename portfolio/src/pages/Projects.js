@@ -1,6 +1,7 @@
 import React from 'react'
 import './secstyle.css'
-import car1 from '../projects/car1.png'
+import car1 from '../projects/images/car1.png'
+import martin2 from '../projects/images/martin2.png'
 
 function Projects() {
     return (
@@ -36,6 +37,20 @@ function Projects() {
                     <h2 className="text-lg text-gray-900 font-medium title-font mb-4">CarCar</h2>
                     <p className="leading-relaxed text-base">A dealership management system, allowing dealerships to track sales, appointments, and more.</p>
                     <a className="inline-flex items-center mt-4" href='/projects/carcar'>Learn More
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                    </div>
+                </div>
+
+                <div className="w-1/2 p-4">
+                    <div className="bg-gray-100 p-6 pro-card">
+                    <img className="h-40 w-full object-cover object-center mb-6 project-img" src={martin2} alt="content goes here"/>
+                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Full Stack Project</h3>
+                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Martin Time Shop</h2>
+                    <p className="leading-relaxed text-base">A custom shop that allows users to signup and purchase products, leave reviews and admins can manage the shop.</p>
+                    <a className="inline-flex items-center mt-4" href='/projects/Martin'>Learn More
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>

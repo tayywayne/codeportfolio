@@ -1,25 +1,25 @@
 import React from 'react'
-import car1 from './images/car1.png'
-import car2 from './images/car2.png'
-import car3 from './images/car3.png'
+import martin1 from './images/martin1.png'
+import martin2 from './images/martin2.png'
+import martin3 from './images/martin3.png'
 
-function CarCar() {
+function Martin() {
     return (
         <div className='project-page'>
             <div>
                 <div className="mx-auto max-w-screen-xl px-4 py-16">
                     <div className='pb-10'>
-                        <img className='w-full' alt="Party" src={car1} />
+                        <img className='w-full' alt="Party" src={martin1} />
                     </div>
                     <div className="w-screen">
                     <h2 className="text-4xl font-bold sm:text-5xl">
-                        CarCar
+                        Martin Time Shop
                     </h2>
                     </div>
 
                     <div className="mt-8">
 
-                    <div className="lg:py-16">
+                    {/* <div className="lg:py-16">
 
                         <div className="mb-6">
 
@@ -55,7 +55,7 @@ function CarCar() {
 
                         </div>
 
-                    </div>
+                    </div> */}
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ function CarCar() {
 
 
 
-    <div className="tech-stack"  id="para4">
+    {/* <div className="tech-stack"  id="para4">
         <div className="container pt-10 mx-auto">
             <div className="flex items-center mx-auto py-10 mb-10 sm:flex-row flex-col">
             <div className="tech-entry">
@@ -80,33 +80,33 @@ function CarCar() {
 
             </div>
         </div>
-    </div>
+    </div> */}
 
 
-        <section className="body-font">
+        {/* <section className="body-font">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-wrap -mx-4 -mb-10 text-center">
                 <div className="sm:w-1/2 mb-10 px-4">
                     <div className="h-64 overflow-hidden">
-                    <img alt="content goes here" className="object-cover object-center h-full w-full" src={car2}/>
+                    <img alt="content goes here" className="object-cover object-center h-full w-full" src={martin2}/>
                     </div>
                     <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Manage services and technicians</h2>
                     <p className="leading-relaxed text-base">Add new technicians and assign services to them while tracking technician history, vehicle history, and more.</p>
                 </div>
                 <div className="sm:w-1/2 mb-10 px-4">
                     <div className="h-64 overflow-hidden">
-                    <img alt="content goes here" className="object-cover object-center h-full w-full" src={car3}/>
+                    <img alt="content goes here" className="object-cover object-center h-full w-full" src={martin3}/>
                     </div>
                     <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Track sales of cars and customers</h2>
                     <p className="leading-relaxed text-base">Create sales for vehicles in the database and track customer history, who they bought from, and even track the sales history for each salesperson.</p>
                 </div>
                 </div>
             </div>
-            </section>
+            </section> */}
 
 
         </div>
     )
 }
 
-export default CarCar
+export default Martin

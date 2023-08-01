@@ -21,7 +21,7 @@ h1 {
 }
 
 .sec1 {
-    background-image: url(./home4.jpg);
+    background-image: url(./images/home4.jpg);
 }
 
 .sec1 h1 {
@@ -140,7 +140,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(./home6.jpg);
+    background-image: url(./images/home6.jpg);
 }
 @media (max-width: 768px) {
     .bb-para {
@@ -238,7 +238,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     height: 60vh;
-    background-image: url(./home7.jpg);
+    background-image: url(./images/home7.jpg);
 }
 
 @media (max-width: 768px) {
@@ -408,7 +408,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(./home3.jpg);
+    background-image: url(./images/home3.jpg);
 }
 
 .tech-stack h2 {

@@ -1,5 +1,5 @@
 import React from 'react'
-import car1 from '../projects/car1.png'
+import car1 from '../projects/images/car1.png'
 
 
 function Sec3() {

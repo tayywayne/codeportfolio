@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import FriendForge from './projects/FriendForge';
 import Portfolio from './projects/Portfolio';
 import CarCar from './projects/CarCar';
+import Martin from './projects/MartinShop';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/projects/friendforge" element={<FriendForge />} />
         <Route path="/projects/portfolio" element={<Portfolio />} />
         <Route path="/projects/CarCar" element={<CarCar />} />
+        <Route path="/projects/Martin" element={<Martin />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
