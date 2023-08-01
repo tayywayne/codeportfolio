@@ -14,7 +14,7 @@ function Projects() {
                 <p className="lg:w-1/2 w-full leading-relaxed">My portfolio comprises of a diverse range of projects that demonstrate my expertise in developing end-to-end web applications from scratch. These projects serve as a testament to my proficiency in full-stack development, showcasing my ability to create robust and comprehensive solutions.</p>
                 </div>
                 <div className="flex flex-wrap -m-4">
-                <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="w-1/2 p-4">
                     <div className="bg-gray-100 p-6 pro-card">
                     <img className="h-40 w-full object-cover object-center mb-6 project-img" src="https://i.imgur.com/JQHS4TQ.png" alt="content goes here"/>
                     <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Full Stack Team Project</h3>
@@ -28,7 +28,7 @@ function Projects() {
                     </div>
                 </div>
 
-                <div className="xl:w-1/4 md:w-1/2 p-4">
+                <div className="w-1/2 p-4">
                     <div className="bg-gray-100 p-6 pro-card">
                     <img className="h-40 w-full object-cover object-center mb-6 project-img" src="https://i.imgur.com/hkDbb3q.png" alt="content goes here"/>
                     <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">React App</h3>
