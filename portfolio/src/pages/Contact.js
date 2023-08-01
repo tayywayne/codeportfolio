@@ -5,7 +5,7 @@ function Contact() {
     <div className='contact'>
 
 
-      <div className="bg-gray-100 min-h-screen bg-black">
+      <div className="min-h-screen bg-black">
         <div className="mx-auto px-4 ">
           <div className="">
             <div className="lg:col-span-2 lg:py-12">
