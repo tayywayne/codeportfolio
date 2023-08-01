@@ -7,6 +7,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import FriendForge from './projects/FriendForge';
 import Portfolio from './projects/Portfolio';
+import CarCar from './projects/CarCar';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects/friendforge" element={<FriendForge />} />
         <Route path="/projects/portfolio" element={<Portfolio />} />
+        <Route path="/projects/CarCar" element={<CarCar />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />

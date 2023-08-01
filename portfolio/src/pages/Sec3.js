@@ -1,4 +1,5 @@
 import React from 'react'
+import car1 from '../projects/car1.png'
 
 
 function Sec3() {
@@ -21,7 +22,7 @@ function Sec3() {
               <div class="card">
               <img src='https://i.imgur.com/JQHS4TQ.png' className='project-img' alt="content goes here"/>
                 <div class="card-title">Friend Forge</div>
-                <div class="card-subtitle">An innovative application that connects users based on their shared interests and hobbies.</div>
+                <div class="card-subtitle">An innovative application that connects users based on their shared interests and hobbies into groups of five people.</div>
 
                 <div class="card-footer">
                 <a className="inline-flex items-center mt-4" href='/projects/friendforge'>Learn More
@@ -33,12 +34,12 @@ function Sec3() {
               </div>
 
               <div class="card">
-              <img src='https://i.imgur.com/hkDbb3q.png' className='project-img' alt="content goes here"/>
-                <div class="card-title">Portfolio</div>
-                <div class="card-subtitle">Fully custom built portfolio website, designed to showcase my skills and experience.</div>
+              <img src={car1} className='project-img' alt="content goes here"/>
+                <div class="card-title">CarCar</div>
+                <div class="card-subtitle">A dealership management system, allowing dealerships to track sales, appointments, and more.</div>
 
                 <div class="card-footer">
-                <a className="inline-flex items-center mt-4" href='/projects/portfolio'>Learn More
+                <a className="inline-flex items-center mt-4" href='/projects/carcar'>Learn More
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
                                 </svg>

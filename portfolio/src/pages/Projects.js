@@ -1,5 +1,6 @@
 import React from 'react'
 import './secstyle.css'
+import car1 from '../projects/car1.png'
 
 function Projects() {
     return (
@@ -30,11 +31,11 @@ function Projects() {
 
                 <div className="w-1/2 p-4">
                     <div className="bg-gray-100 p-6 pro-card">
-                    <img className="h-40 w-full object-cover object-center mb-6 project-img" src="https://i.imgur.com/hkDbb3q.png" alt="content goes here"/>
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">React App</h3>
-                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Portfolio</h2>
-                    <p className="leading-relaxed text-base">Fully custom built portfolio website, designed to showcase my skills and experience.</p>
-                    <a className="inline-flex items-center mt-4" href='/projects/portfolio'>Learn More
+                    <img className="h-40 w-full object-cover object-center mb-6 project-img" src={car1} alt="content goes here"/>
+                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Full Stack Duo Project</h3>
+                    <h2 className="text-lg text-gray-900 font-medium title-font mb-4">CarCar</h2>
+                    <p className="leading-relaxed text-base">A dealership management system, allowing dealerships to track sales, appointments, and more.</p>
+                    <a className="inline-flex items-center mt-4" href='/projects/carcar'>Learn More
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
