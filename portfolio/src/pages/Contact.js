@@ -11,7 +11,7 @@ function Contact() {
             <div className="lg:col-span-2 lg:py-12">
               <h1>Contact Me</h1>
               <p className="text-white">
-                Looking to talk, collab or interested in what I can do for your company? Please reach out via my email, linkedin or fill out the contact form below.
+                Looking to talk, collab or interested in what I can do for your company? Please reach out via my email or linkedin.
               </p>
 
               <div className="mt-8 contact-links">
@@ -20,7 +20,7 @@ function Contact() {
               </div>
             </div>
 
-            <div className=" bg-white p-8 lg:col-span-3 lg:p-12">
+            {/* <div className=" bg-white p-8 lg:col-span-3 lg:p-12">
 
               <form action="" className="space-y-4" data-netlify="true">
               <input type="hidden" name="form-name" value="contact"/>
@@ -55,7 +55,7 @@ function Contact() {
                 </div>
               </form>
 
-            </div>
+            </div> */}
 
 
           </div>
