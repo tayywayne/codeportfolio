@@ -40,7 +40,7 @@ function About() {
 
         <div className="py-10 ">
             <div
-            className="mx-auto w-screen"
+            className="mx-auto"
             >
 
             <p className="md:block">
