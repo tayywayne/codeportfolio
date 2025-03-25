@@ -1,20 +1,55 @@
 import React from "react";
 import p1 from './p1.png'
 import { Link } from "react-router-dom";
+import { motion } from 'framer-motion';
 
 function ProjectCards() {
-    return(
+    return (
         <div className="projects">
-            {/* <div className="fun-text">
-                <p>I love <span className="f1 highlight">learning new things</span>, <span className="f2 highlight">pushing my creative skills</span>, and <span className="f3 highlight">solving complex problems</span>.</p>
-            </div> */}
+            <div className="fun-text">
+                <p>
+                    I'm a{" "}
+                    <motion.span
+                        className="f1"
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ duration: 3 }}
+                        viewport={{ once: true }}
+                    >
+                        full-stack
+                    </motion.span>{" "}
+                    web developer with{" "}
+                    <motion.span
+                        className="f1"
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ duration: 3 }}
+                        viewport={{ once: true }}
+                    >
+                        mobile experience
+                    </motion.span>{" "}
+                    and a love for{" "}
+                    <motion.span
+                        className="f1"
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ duration: 3 }}
+                        viewport={{ once: true }}
+                    >
+                        creativity
+                    </motion.span>
+                    .
+                </p>
+            </div>
             <h2>Projects</h2>
             <div className="project-card">
-                <Link to='/FriendForge'><img src={p1} alt="friend forge"/></Link>
+                <Link to='/FriendForge'><img src={p1} alt="friend forge" /></Link>
                 <h3>Friend Forge</h3>
                 <p>An innovative application that connects users based on their shared interests.</p>
             </div>
+        
         </div>
-    )
+    );
 }
-export default ProjectCards
+
+export default ProjectCards;
