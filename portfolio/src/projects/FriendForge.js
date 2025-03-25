@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import p1 from '../Pages/home-com/p1.png'
+import p1 from '../pages/home-com/p1.png'
 import ff1 from './ff1.gif'
 import ff2 from './ff2.gif'
 

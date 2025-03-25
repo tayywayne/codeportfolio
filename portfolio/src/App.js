@@ -2,10 +2,10 @@ import Header from './Header';
 import Footer from './Footer';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
-import Home from './Pages/Home';
-import Projects from './Pages/Projects';
-import About from './Pages/About';
-import Contact from './Pages/Contact';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import About from './pages/About';
+import Contact from './pages/Contact';
 import FriendForge from './projects/FriendForge'
 import LittleNav from './LittleNav'
 import ChangeMode from './ChangeMode'
