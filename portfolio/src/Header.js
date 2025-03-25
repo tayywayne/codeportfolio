@@ -1,7 +1,7 @@
 import React from 'react';
 import './layout.css'
 import { Link } from 'react-router-dom';
-import pin from './images/pin.png'
+// import pin from './images/pin.png'
 
 function Header() {
   return (
