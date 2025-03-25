@@ -7,7 +7,7 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import FriendForge from './projects/FriendForge'
-import LittleNav from './LittleNav'
+// import LittleNav from './LittleNav'
 import ChangeMode from './ChangeMode'
 
 const pageVariants = {

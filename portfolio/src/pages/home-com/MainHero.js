@@ -6,7 +6,7 @@ function MainHero() {
         <div>
             <div className="main-hero">
                 <div className="hero-1">
-                    <img src={heropfp}/>
+                    <img src={heropfp} alt="profile pic"/>
                 </div>
                 <div className="hero-2">
                     <h3>Hello, I'm</h3>

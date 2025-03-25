@@ -10,7 +10,7 @@ function ProjectCards() {
             </div> */}
             <h2>Projects</h2>
             <div className="project-card">
-                <Link to='/FriendForge'><img src={p1}/></Link>
+                <Link to='/FriendForge'><img src={p1} alt="friend forge"/></Link>
                 <h3>Friend Forge</h3>
                 <p>An innovative application that connects users based on their shared interests.</p>
             </div>
