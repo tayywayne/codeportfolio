@@ -1,32 +1,62 @@
 import Header from './Header';
 import Footer from './Footer';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './pages/Home';
-import Projects from './pages/Projects';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import FriendForge from './projects/FriendForge';
-import Portfolio from './projects/Portfolio';
-import CarCar from './projects/CarCar';
-import Martin from './projects/MartinShop';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { AnimatePresence, motion } from 'framer-motion';
+import Home from './Pages/Home';
+import Projects from './Pages/Projects';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import FriendForge from './projects/FriendForge'
+import LittleNav from './LittleNav'
+import ChangeMode from './ChangeMode'
+
+const pageVariants = {
+  initial: { opacity: 0, y: 50 },    // Start below the viewport
+  animate: { opacity: 1, y: 0, transition: { duration: 0.5 } },  // Fade in and slide up
+  exit: { opacity: 0, y: -50, transition: { duration: 0.3 } },   // Fade out and slide up
+};
+
+function AnimatedRoutes() {
+  const location = useLocation();
+
+  return (
+    <AnimatePresence mode="wait">
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<PageWrapper><Home /></PageWrapper>} />
+        <Route path="/Projects" element={<PageWrapper><Projects /></PageWrapper>} />
+        <Route path="/About" element={<PageWrapper><About /></PageWrapper>} />
+        <Route path="/Contact" element={<PageWrapper><Contact /></PageWrapper>} />
+        <Route path="/FriendForge" element={<PageWrapper><FriendForge /></PageWrapper>} />
+      </Routes>
+    </AnimatePresence>
+  );
+}
+
+const PageWrapper = ({ children }) => (
+  <motion.div variants={pageVariants} initial="initial" animate="animate" exit="exit">
+    {children}
+  </motion.div>
+);
 
 function App() {
   return (
-    <BrowserRouter >
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects/friendforge" element={<FriendForge />} />
-        <Route path="/projects/portfolio" element={<Portfolio />} />
-        <Route path="/projects/CarCar" element={<CarCar />} />
-        <Route path="/projects/Martin" element={<Martin />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <Router>
+      <ChangeMode />
+      <div className="main-content">
+        <Header />
+        {/* <LittleNav /> */}
+        <AnimatedRoutes />
+        <Footer />
+      </div>
+      <div className="loopy-marquee">
+        <span>
+          Python / JavaScript / SQL / HTML / CSS / React / React Hooks / Redux Toolkit / Django / PostgreSQL / MongoDB /
+          FastAPI / Bootstrap / Tailwind / Python / JavaScript / SQL / HTML / CSS / React / React Hooks / Redux Toolkit
+          / Django / PostgreSQL / MongoDB / FastAPI / Bootstrap / Tailwind
+        </span>
+      </div>
+      <div className="blur-bottom"></div>
+    </Router>
   );
 }
 

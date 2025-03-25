@@ -1,19 +1,22 @@
-import React from 'react'
-import './secstyle.css'
-import Sec1 from './Sec1';
-import Sec2 from './Sec2';
-import Sec3 from './Sec3';
-import Sec4 from './Sec4';
+import React from "react";
+import MainHero from "./home-com/MainHero";
+import CurrentTech from "./home-com/CurrentTech"
+import ProjectCards from "./home-com/ProjectCards"
+import HomeAbout from "./home-com/HomeAbout"
+import Edu from "./home-com/Edu"
+import Connect from "./home-com/Connect"
 
 function Home() {
-  return (
-    <div>
-      <Sec1 />
-      <Sec2 />
-      <Sec3 />
-      <Sec4 />
-    </div>
-  )
-}
+    return (
+        <div>
+            <MainHero/>
+            <CurrentTech/>
+            <ProjectCards />
+            <Edu />
+            <HomeAbout />
+            <Connect />
+        </div>
+    );
+    }
 
-export default Home
+export default Home;
