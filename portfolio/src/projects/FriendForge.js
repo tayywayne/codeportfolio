@@ -9,7 +9,7 @@ function FriendForge() {
         <div className="project-body">
             <Link to='/' className="back-button">⤶</Link>
             <h1>Friend Forge</h1>
-            <a href="https://gitlab.com/blacksmith-collaborative/friendforge" className="repo-link" target="_blank">Repository</a>
+            <a href="https://github.com/tayywayne/friendforge" className="repo-link" target="_blank">Repository</a>
             <p>An innovative application that connects users based on their shared interests.</p>
             <img src={p1} className="project-main-img" alt="friend forge"/>
 

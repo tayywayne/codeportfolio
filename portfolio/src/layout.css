@@ -498,7 +498,7 @@ h2 {
 .repo-link {
     font-size: 20px;
     text-decoration: none;
-    color: var(--light);
+    color: var(--midtone);
     transition: all 0.2s ease-in-out;
 }
 

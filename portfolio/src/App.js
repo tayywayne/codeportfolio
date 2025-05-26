@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import FriendForge from './projects/FriendForge'
 import LittleNav from './LittleNav'
 import ChangeMode from './ChangeMode'
+import QuitBlocker from './projects/QuiltBlocker';
 
 const pageVariants = {
   initial: { opacity: 0, y: 50 },    // Start below the viewport
@@ -27,6 +28,7 @@ function AnimatedRoutes() {
         <Route path="/About" element={<PageWrapper><About /></PageWrapper>} />
         <Route path="/Contact" element={<PageWrapper><Contact /></PageWrapper>} />
         <Route path="/FriendForge" element={<PageWrapper><FriendForge /></PageWrapper>} />
+        <Route path="/QuiltBlocker" element={<PageWrapper><QuitBlocker /></PageWrapper>} />
       </Routes>
     </AnimatePresence>
   );
